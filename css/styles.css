@@ -89,7 +89,7 @@ a:hover {
     border-radius:150px;
 }
 
-.about-text {
+.about-text, .contact-text {
     width: 70%;
 }
 
@@ -146,7 +146,7 @@ a:hover {
     background-image: -ms-linear-gradient(top, #bfbfbf, #959595);
     background-image: -o-linear-gradient(top, #bfbfbf, #959595);
     background-image: linear-gradient(to bottom, #bfbfbf, #959595);
-    color: #ffffff
+    color: #ffffff;
     text-decoration: none;
 }
 
