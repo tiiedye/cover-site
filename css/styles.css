@@ -1,0 +1,51 @@
+body {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    margin: 0px;
+    color: #fbb406;
+    font-family: 'Neonderthaw', cursive;
+    font-size: 140px;
+}
+
+u {
+    text-decoration-color: #fbb406;
+}
+
+.glow {
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fbb406, 0 0 40px #fbb406, 0 0 50px #fbb406, 0 0 60px #fbb406, 0 0 70px #fbb406;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #fbda93, 0 0 40px #fbda93, 0 0 50px #fbda93, 0 0 60px #fbda93, 0 0 70px #fbda93, 0 0 80px #fbda93;
+    }
+  }
+
+.title-block {
+    background-image: url("../images/3506328.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1800px;
+    height: 700px;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title-p {
+    color: #747c7c;
+    font-family: 'Oooh Baby', cursive;
+    font-weight: bold;
+    font-size: 44px;
+}
