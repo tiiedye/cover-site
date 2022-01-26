@@ -89,7 +89,7 @@ a:hover {
     border-radius:150px;
 }
 
-.about-text, .contact-text {
+.about-text {
     width: 70%;
 }
 
@@ -120,6 +120,11 @@ a:hover {
     border-radius: 20px;
     height: 250px;
     margin: auto;
+}
+
+.contact-text {
+    width: 70%;
+    text-align: center;
 }
 
 .btn {
