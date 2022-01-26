@@ -23,6 +23,16 @@ u {
     text-decoration-color: #fbb406;
 }
 
+a {
+    color: #fbb406;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: #fbda93;
+}
+
 .glow {
     -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
@@ -59,13 +69,13 @@ u {
     font-size: 44px;
 }
 
-.about-block {
+.about-block, .contact-block {
     max-width: 1800px;
     display: flex;
     align-items: center;
     flex-direction: column;
     margin: auto;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 .profile-img {
@@ -95,7 +105,7 @@ u {
     align-items: center;
     flex-direction: column;
     margin: auto;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     background-color: #f3f2f3;
 }
 
@@ -110,6 +120,46 @@ u {
     border-radius: 20px;
     height: 250px;
     margin: auto;
+}
+
+.btn {
+    background: #fbda93;
+    background-image: -webkit-linear-gradient(top, #fbda93, #fbb406);
+    background-image: -moz-linear-gradient(top, #fbda93, #fbb406);
+    background-image: -ms-linear-gradient(top, #fbda93, #fbb406);
+    background-image: -o-linear-gradient(top, #fbda93, #fbb406);
+    background-image: linear-gradient(to bottom, #fbda93, #fbb406);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #bfbfbf;
+    background-image: -webkit-linear-gradient(top, #bfbfbf, #959595);
+    background-image: -moz-linear-gradient(top, #bfbfbf, #959595);
+    background-image: -ms-linear-gradient(top, #bfbfbf, #959595);
+    background-image: -o-linear-gradient(top, #bfbfbf, #959595);
+    background-image: linear-gradient(to bottom, #bfbfbf, #959595);
+    text-decoration: none;
+}
+
+.footer-block {
+    max-width: 1800px;
+    margin: auto;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background-color: #f3f2f3;
+    text-align: center;
+}
+
+.footer-link {
+    margin: 10px 20px;
 }
 
 /* Media for Mobile devices */
