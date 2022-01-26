@@ -8,6 +8,15 @@ h1 {
     color: #fbb406;
     font-family: 'Neonderthaw', cursive;
     font-size: 140px;
+    text-align: center;
+}
+
+h2 {
+    margin: 0px;
+    color: #fbb406;
+    font-family: 'Neonderthaw', cursive;
+    font-size: 80px;
+    text-align: center;
 }
 
 u {
@@ -48,4 +57,38 @@ u {
     font-family: 'Oooh Baby', cursive;
     font-weight: bold;
     font-size: 44px;
+}
+
+.about-block {
+    max-width: 1800px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.profile-img {
+    border-radius: 50%;
+    height: 150px;
+    -moz-box-shadow: 0px 6px 5px #bfbfbf;
+    -webkit-box-shadow: 0px 6px 5px #bfbfbf;
+    box-shadow: 0px 6px 5px #bfbfbf;
+    -moz-border-radius:150px;
+    -webkit-border-radius:150px;
+    border-radius:150px;
+}
+
+.about-text {
+    width: 70%;
+}
+
+.skills-block {
+    max-width: 1800px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    padding-bottom: 20px;
+    background-color: #f3f2f3;
 }
